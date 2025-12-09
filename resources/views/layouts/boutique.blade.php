@@ -14,3 +14,10 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
+    <body>
+        <h1 class="text-3xl font-bold underline text-clifford">
+      Hello world!
+    </h1>
+     <!-- Include this script tag or install `@tailwindplus/elements` via npm: -->   
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
+    </body> 
